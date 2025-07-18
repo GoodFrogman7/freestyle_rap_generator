@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Model files (too large for GitHub)
+models/checkpoints/
+models/*.safetensors
+models/*.pt
+models/*.bin
+models/*.json
+models/merges.txt
+models/vocab.json
+models/special_tokens_map.json
+models/tokenizer_config.json
+
+# Data files
+data/processed/
+data/raw/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
