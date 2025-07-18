@@ -7,3 +7,5 @@ python-multipart
 httpx
 pandas
 scikit-learn
+huggingface_hub
+requests
